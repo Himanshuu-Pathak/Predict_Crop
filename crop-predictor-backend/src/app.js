@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 
 const allowedOrigins = [
   "https://predictcrop.netlify.app",
-  /^https:\/\/.*--predictcrop\.netlify\.app$/ 
+  // /^https:\/\/.*--predictcrop\.netlify\.app$/ 
 ];
 
 app.use(cors({
